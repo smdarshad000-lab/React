@@ -150,7 +150,7 @@ function App() {
     
     <div className="body bg-black text-white flex content-center  ">
       <div className="app content-center" >
-        <h1 className="mb-10">Weather App</h1>
+        <h1 className="mb-10 text-3xl border">Weather App</h1>
 
         <form className="searchbar mb-10  flex" onSubmit={handleSearch}>
           <input className="bg-grey-500 rounded-sm w-30"
